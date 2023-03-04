@@ -3,7 +3,7 @@ def reverse_word(word):
         return word
     else:
         return reverse_word(word[1:]) + word[0]
-
+#s[-1]+reverse_string_recursive(s[:-1])
 paragraph = input().split()
 a=""
 for i in range(len(paragraph)):
